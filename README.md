@@ -1,16 +1,103 @@
-# React + Vite
+🚀 Registration Wizard - Multi Step React Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ 🌐 Live Demo
+🔗 Vercel Deployment:  https://registration-one-red.vercel.app
 
-Currently, two official plugins are available:
+ 📌 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Registration Wizard is a modern multi-step form application built using React.js as part of Week 7 Sprint.
 
-## React Compiler
+The application demonstrates enterprise-level frontend concepts including:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Multi-step form architecture
+- State lifting
+- Real-time form validation
+- React Hook Form
+- Zod schema validation
+- Password visibility toggle
+- Progress tracking
+- Responsive modern UI
+- Form state persistence
 
-## Expanding the ESLint configuration
+ ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Phase 1 Features
+- Multi-step registration form
+- Step navigation (Next / Back)
+- Conditional rendering
+- Form state persistence
+- Review & Submit page
+
+Phase 2 Features
+- Real-time validation
+- Email validation
+- Password validation
+- Confirm password matching
+- Disabled navigation buttons
+- Dynamic progress bar
+- Show / Hide password toggle
+
+Phase 3 Features
+- React Hook Form integration
+- Zod schema validation
+- Enterprise form structure
+- Clean component architecture
+- Responsive UI design
+
+🛠️ Tech Stack
+
+- React.js
+- Vite
+- JavaScript
+- CSS3
+- React Hook Form
+- Zod
+- React Icons
+
+📂 Project Structure
+
+```bash
+src/
+│
+├── components/
+│   ├── ProgressBar.jsx
+│   ├── StepOne.jsx
+│   ├── StepTwo.jsx
+│   └── StepThree.jsx
+│
+├── App.jsx
+├── main.jsx
+├── schema.js
+└── index.css
+```
+
+⚙️ Installation & Setup
+
+```bash
+git clone YOUR_GITHUB_LINK
+cd week7
+npm install
+npm run dev
+```
+
+🚀 Deployment
+
+This project is successfully deployed using Vercel.
+
+🧠 Key Learning Outcomes
+
+- Multi-step form management
+- State lifting in React
+- Conditional rendering
+- Schema-based validation
+- Form handling using react-hook-form
+- Responsive UI engineering
+- Production-level form architecture
+
+👨‍💻 Author
+
+Sridhar Kumar
+
+📜 License
+
+This project is created for educational and learning purposes.
